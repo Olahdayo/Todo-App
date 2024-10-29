@@ -54,7 +54,7 @@ const filteredList = computed(() => {
   <div>
     <header>
       <nav class="navbar">
-        <h1>Simple Todo CRUD</h1>
+        <h1>Simple Todos CRUD</h1>
         <div class="logo"><img src="" alt="" /></div>
       </nav>
     </header>
