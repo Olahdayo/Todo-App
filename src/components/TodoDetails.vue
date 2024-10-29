@@ -60,7 +60,7 @@ const filteredList = computed(() => {
     </header>
 
     <div class="container">
-      <h1 class="title">Todo List</h1>
+      <h1 class="title">Todo List Application</h1>
       <hr />
       <div class="input-group">
         <input
