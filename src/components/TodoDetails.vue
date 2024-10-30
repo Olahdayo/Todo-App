@@ -54,13 +54,13 @@ const filteredList = computed(() => {
   <div>
     <header>
       <nav class="navbar">
-        <h1>Simple Todos CRUD</h1>
+        <h1>Todo App </h1>
         <div class="logo"><img src="" alt="" /></div>
       </nav>
     </header>
 
     <div class="container">
-      <h1 class="title">Todo List Application</h1>
+      <h1 class="title">Your Lists</h1>
       <hr />
       <div class="input-group">
         <input
@@ -68,8 +68,9 @@ const filteredList = computed(() => {
           class="form-control"
           v-model="userInput"
           @keyup.enter="addItem"
+          placeholder="Add your List..."
         />
-        <button class="btn-success btn" @click="addItem">Add</button>
+        <button class="btn-success btn" @click="addItem">Add To-do</button>
       </div>
 
       <div class="input-group" >
@@ -77,6 +78,7 @@ const filteredList = computed(() => {
           type="text"
           class="form-control"
           v-model="searchInput"
+          placeholder="Search for list..."
         />
       </div>
 
